@@ -1,0 +1,67 @@
+.texts {
+    text-align: center;
+    margin: 82px 0;
+}
+
+.boxText {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0 0 20px 0;
+}
+
+.boxSubtitle {
+    padding: 0 25px;
+}
+
+.box {
+    position: relative;
+    margin: 80px 0;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    user-select: none;
+}
+
+.box p {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 40%;
+    background: #fff;
+    height: 55px;
+    transform: translate(-50%, 0);
+    font-size: 30px;
+    font-weight: 700;
+    display: grid;
+    place-items: center;
+}
+
+@media screen and (max-width: 576px) {
+    .texts {
+        margin: 70px 0;
+    }
+    .boxText {
+        font-size: 18px;
+    }
+    .boxSubtitle {
+        padding: 0 20px;
+    }
+    .box {
+        position: relative;
+        margin: 65px 0;
+    }
+    .box p {
+        width: 55%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 369px) {
+    .box p {
+        width: 60%;
+        font-size: 16px;
+        height: 40px;
+    }
+}
